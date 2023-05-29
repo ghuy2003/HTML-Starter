@@ -29,4 +29,10 @@ import 'modules/ADAMenu'
 import 'modules/ModCarouselSlide'
 import 'modules/ADA'
 
+
+
+import'modules/slickslider'
+
+
+
 console.log('App mobile')

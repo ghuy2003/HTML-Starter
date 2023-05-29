@@ -18,7 +18,6 @@ import 'modules/ConvertSvg'
 
 
 
-
 // //ADA support ADA
 import 'modules/Popup'
 import 'modules/DatePickerDialog'
@@ -30,5 +29,13 @@ import 'modules/TabList'
 import 'modules/ADAMenu'
 import 'modules/ModCarouselSlide'
 import 'modules/ADA'
+
+
+
+
+import 'modules/slickslider'
+
+
+
 
 console.log('App desktop')
