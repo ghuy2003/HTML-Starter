@@ -1,6 +1,8 @@
 import 'slick-carousel/slick/slick'
 // // js Custom
 import 'modules/FixHeight'
+import 'modules/slickPH'
+
 
 import 'modules/BrowserDetection'
 import 'modules/CheckDevice'

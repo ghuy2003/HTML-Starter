@@ -1,4 +1,4 @@
-let max = 401
+let max = 501
 let p = 0
 let Space = {
   '0p5': '1px',
@@ -11,7 +11,20 @@ let Space = {
   '50vh': '50vh',
   '100vh': '100vh',
   '500': '500px',
-  '120':'120px'
+  '120':'120px',
+  '300': '300px',
+  '39.62':'39.62px',
+  '18cc' :'16px',
+  '27cc': '-27px',
+  '209': '209%',
+  '30rem': '-30rem',
+  '28rem': '-28rem',
+  '31rem': '-31rem',
+  '27rem': '-27rem',
+  '24rem': '-24rem',
+  '3rem': '-3rem',
+  '5rem': '-5rem',
+  '2rem': '-2rem'
 }
 
 for (let i = 0; i < max; i++) {
