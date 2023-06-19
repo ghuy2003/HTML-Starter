@@ -1,0 +1,15 @@
+.mod-slickPC{
+    .head-content {
+        p {
+            @apply font-normal text-base leading-6 text-gray-300 
+            md:px-43 
+            2xl:px-120 ; 
+        }
+        h1 {
+            @apply  md:text-4xl md:mb-5
+                    2xl:text-5xl 2xl:mb-20;
+        }
+       
+    }
+    
+}
