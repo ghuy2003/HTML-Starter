@@ -1,0 +1,19 @@
+.football{
+    @apply mt-20;
+    a{
+      @apply no-underline;
+      color: inherit;
+      &:hover{  
+        @apply text-blue-600;
+      }
+    }
+  }
+  .footer-copyright{
+    a {
+      @apply no-underline;
+  
+      &:hover {
+        @apply text-blue-500;
+      }
+    }
+  }

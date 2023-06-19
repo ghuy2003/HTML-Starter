@@ -132,7 +132,7 @@ module.exports = {
   },
   plugins: [
     function ({ addComponents }) {
-      addComponents({
+      addComponents({ 
         '.container': {
           width: '100%',
           marginLeft: 'auto',

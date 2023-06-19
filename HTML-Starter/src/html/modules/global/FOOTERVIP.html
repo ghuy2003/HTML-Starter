@@ -1,0 +1,54 @@
+<footer id="football" class="module football">
+    <div class="container foot-top pt-10 font-plus font-bold">
+      <div class="row items-center">
+        <img src='assets/images/logo.svg'>
+        <div class="col w-1/2 lg:w-2/6 bg-blue-999">
+          <div class="text-base">
+            <p class="mb-0" href="#">Subscribe to our emails</p>
+            <input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control placeholder-to-describedby no-hide-placeholder" id="sign-up-email" aria-invalid="false" placeholder="Enter your email*" value="" type="email" name="email"> 
+          </div>
+          <address>
+            <a href="tel:+12819944600">1.888.550.3746</a>
+          </address>
+          <div class="social mt-3">
+            {% include "modules/global/social.html" %}
+          </div>
+        </div>
+        {% for i in [1, 2, 3, 4] %}
+        <div class="col w-1/2 lg:w-1/6">
+         <ul class="list-none pl-20">
+           <li>
+             
+            <a href="#"><p class="h5 font-body">Shop</p></a>
+
+             <ul class="footer-menu list-none pl-0 text-blue-500 leading-7 text-base">
+              <li>
+                <a href="#">Resources</a>
+              </li>
+              <li>
+                <a href="#">Shop</a>
+              </li>
+              <li>
+                <a href="#">Resources</a>
+              </li>
+              <li>
+                <a href="#">Shop</a>
+              </li>
+            </ul>
+          </li>
+         </ul>
+        
+        </div>
+        {%endfor%}
+        
+      </div>
+    </div>
+    <div class="container text-center last-mb-none py-10" >
+      <p class="footer-copyright">
+        Copyright © 2018-2021 9thWonder
+        <a href="#">Private Policy</a>
+        <a href="#">Disclaimer</a>
+      </p>
+    </div>
+  </footer>
+  
