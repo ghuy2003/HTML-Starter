@@ -7,7 +7,7 @@ module.exports = {
     './public/**/*.html',
     './public/**/*.html',
     './src/assets/**/*.js',
-    './index.php', 
+    './index.php',
     './app/**/*.php', 
     './resources/**/*.{php,vue,js}',
   ],
