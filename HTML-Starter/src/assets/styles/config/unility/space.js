@@ -28,7 +28,8 @@ let Space = {
   '32rem': '-32rem',
   '3rem': '-3rem',
   '5rem': '-5rem',
-  '2rem': '-2rem'
+  '2rem': '-2rem',
+  '2-2rem': '2rem'
 }
 
 for (let i = 0; i < max; i++) {

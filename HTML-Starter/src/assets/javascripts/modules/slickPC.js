@@ -10,21 +10,25 @@ export default class slickPC {
     }
     addSlick (){
       this.$this.find('.sliderss').slick({
-        'slidesToShow': 3,
-        variableWidth:true,
-        arrows: true,
+        'slidesToShow': 4,
+        variableWidth: true,
+        arrows: false,
         prevArrow: '<button class="slicks-prev arrows  text-blue-400"><span class="icomoon icon-chevron-left"></span><span class="sr-only">Prev slider</span></button>',
         nextArrow: '<button class="slicks-next arrows  text-blue-400"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>',
-        dots: true,
+        dots: false,
+        slidesToScroll: 1,
         dotsClass:'slick-dotss',
         responsive: [
             {
-            breakpoint: 767,
+            breakpoint: 800,
             settings: {
-                'slidesToShow': 2,
+                'slidesToShow': 3,
                 slidesToScroll: 1,
-                infinite: true,
-                variableWidth: false
+                infinite: true,      
+                variableWidth: true,
+                arrows: true,
+                
+                dots: true
 
             }
             
@@ -35,7 +39,9 @@ export default class slickPC {
               'slidesToShow': 1,
               slidesToScroll: 1,
               infinite: true,
-              variableWidth: true
+              arrows: true,
+              variableWidth: true,
+              dots: true
 
           }
 
