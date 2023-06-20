@@ -4,16 +4,15 @@
       @apply no-underline;
       color: inherit;
       &:hover{  
-        @apply text-blue-600;
+        @apply text-blue-300;
       }
     }
   }
-  .footer-copyright{
-    a {
-      @apply no-underline;
-  
+  .add{
+    a{  
       &:hover {
-        @apply text-blue-500;
+        @apply underline;
+        @apply text-white;
       }
     }
   }
