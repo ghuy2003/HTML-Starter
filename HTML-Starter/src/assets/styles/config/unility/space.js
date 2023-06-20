@@ -20,8 +20,11 @@ let Space = {
   '30rem': '-30rem',
   '28rem': '-28rem',
   '31rem': '-31rem',
+  '35rem': '-35rem',
   '27rem': '-27rem',
   '24rem': '-24rem',
+  '22rem': '-22rem',
+  '32rem': '-32rem',
   '3rem': '-3rem',
   '5rem': '-5rem',
   '2rem': '-2rem'
