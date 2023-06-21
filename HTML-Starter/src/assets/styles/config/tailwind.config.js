@@ -11,7 +11,6 @@ module.exports = {
     './app/**/*.php', 
     './resources/**/*.{php,vue,js}',
   ],
-  theme: {
     fontFamily: {
       sans: ['Source Sans Pro', 'serif'],
       body: ['Jost', 'sans-serif'],
