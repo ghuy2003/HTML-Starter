@@ -8,9 +8,8 @@
 <div class="space-h-20"></div>
         <div class="sliderss ">  <!-- sliderss -->
             {% for i in col %}
-            <div class=" w-1/4 px-5 mt-30">
-                <div class="">
-                    <div class="slider-items  py-10">                      
+            <div class="  px-5 mt-30">
+                    <div class="slider-items   py-10">                      
                         <h4>{{i.headcontent}}</h4>
                         <img class="2xxl:w-228 2xl:w-173 xl:w-185 md:w-175 w-162" src="{{i.image}}" alt="">
                         <div class="box-content pl-5">
@@ -22,8 +21,7 @@
                         <a class="font-bold text-7 bg-blue-400 text-white px-10 py-7 rounded no-underline w-full" href="#">{{i.button1.textbutton}}</a>
                             </div>
                         </div>
-                    </div>
-                </div> <!-- 1 -->
+                    </div>               
             </div> 
             {% endfor %}
         </div>
