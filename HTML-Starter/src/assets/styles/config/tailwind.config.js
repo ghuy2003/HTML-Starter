@@ -157,7 +157,33 @@ module.exports = {
           '@screen lg': {
             maxWidth: '1100px',
           }
-        }   
+        },
+
+        '.container1': {
+          width: '100%',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          paddingLeft: '26px',
+          // paddingRight: '26px',
+          '@screen lg': {
+            maxWidth: '1200px',
+            paddingLeft: '48px',
+            // paddingRight: '48px',
+          },
+          '@screen xl': {
+            maxWidth: '1280px',
+            // paddingLeft: '70px',
+            // paddingRight: '70px',
+          },
+          '@screen 2xl': {
+            maxWidth: '1440px',
+            paddingLeft: '2px',
+          },
+          '@screen 2xxl': {
+            maxWidth: '1920px',
+            paddingLeft: '10px',
+          }
+        }         
       })
     }
   ]

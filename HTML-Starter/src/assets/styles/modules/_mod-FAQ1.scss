@@ -4,7 +4,7 @@
         @apply m-0 p-0 box-border font-plus;
     }
     h3 {
-        @apply font-bold text-3xl  leading-9 text-darkblack p-10 pb-20 2xl:pl-2p 2xxl:pl-8p; 
+        @apply font-bold text-3xl  leading-9 text-darkblack p-10 pb-20 2xl:pl-2p 2xxl:pl-1p ; 
     }
     .body{
         @apply flex justify-center items-center min-h-screen  
