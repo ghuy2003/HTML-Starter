@@ -145,7 +145,7 @@ module.exports = {
             paddingRight: '48px',
           },
           '@screen xl': {
-            maxWidth: '1110px',
+            maxWidth: '1110px',   
             paddingLeft: '70px',
             paddingRight: '70px',
           },
