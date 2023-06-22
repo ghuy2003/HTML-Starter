@@ -11,6 +11,7 @@ module.exports = {
     './app/**/*.php', 
     './resources/**/*.{php,vue,js}',
   ],
+  theme: {      
     fontFamily: {
       sans: ['Source Sans Pro', 'serif'],
       body: ['Jost', 'sans-serif'],
@@ -142,7 +143,7 @@ module.exports = {
             maxWidth: '1200px',
             paddingLeft: '48px',
             paddingRight: '48px',
-          },  
+          },
           '@screen xl': {
             maxWidth: '1110px',
             paddingLeft: '70px',
