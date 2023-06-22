@@ -3,11 +3,15 @@
 
 {% block content %}
 <main id="main-content" class="main-content pt-40">
-    {% include 'modules/mod-reviews_page.html' %}
+    {% include 'modules/PageHome/mod-banner.html' %}
+
+    {% include 'modules/PageReviews/mod-reviews_page.html' %}
     {% include 'modules/mod-textbased.html' %}
     {% include 'modules/mod-In_the_press.html' %}
-    {% include 'modules/mod-let_us.html' %}
-    {% include 'modules/mod-ask_for.html' %}
+    {% include 'modules/PageShop/mod-let_us.html' %}
+
+    {% include 'modules/PageSetUpVideos/mod-ask_for.html' %}
+
 </main>
 
 {% endblock %}
