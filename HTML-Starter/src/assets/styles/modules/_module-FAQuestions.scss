@@ -21,7 +21,7 @@
         @apply font-bold text-3xl  leading-9 text-darkblack p-10 pb-20 2xl:pl-2p 2xxl:pl-1p ; 
     }
     .body{
-        @apply flex justify-center items-center min-h-screen  
+        @apply flex justify-center items-center  
                md:min-h-0 
                ;
     }
@@ -65,7 +65,7 @@
         }
     }
     .accordion .contentBox.active .content{
-        @apply h-85 p-5 py-10 mb-20 
+        @apply   h-85 p-5 py-10 mb-20
             md:h-50
             xl:py-20
             2xl:h-60 ;
