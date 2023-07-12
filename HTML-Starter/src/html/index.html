@@ -6,22 +6,22 @@ ourTeam: My Team
 {% block bodyClass %}class="page-home has-animation"{% endblock %}
 
 {% block content %}
-<main id="main-content" class="main-content pt-40">
+<main id="main-content" class="main-content ">
+    {% include 'modules/PageHome/mod-banner.html' %}
+    <div class="space h-50 "></div>
     {% include 'modules/PageHome/mod-newbanner.html' %}
-    {% include 'modules/PageHome/mod-column.html' %}
-
-    {% include 'modules/PageHome/mod-secondbanner.html' %}
-    {% set option = 1 %}
-    {% set nameSlider = 'slider1' %}
-    {% set customizeClass = 'allow-tab-btn' %}
-    {% include 'modules/mod-slickslider.html' %}
     <div class="h-50"></div>
-    {% include 'modules/mod-banners.html' %}
-    <div class="h-20"></div>
-    {% include 'modules/mod-banner-internal.html' %}
-    {% include 'modules/mod-hello-world.html' %}
-    {{name}}
-    {{column}}
+    {% include 'modules/PageHome/mod-slickPH.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageHome/mod-column.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageHome/mod-slickPH1.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageHome/mod-secondbanner.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageHome/mod-the_lasted.html' %}
+    <div class="h-50"></div>
+    {% include 'modules/PageHome/mod-wrap.html' %}
 </main>
 
 {% endblock %}

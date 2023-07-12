@@ -11,9 +11,9 @@ import 'modules/BrowserDetection'
 import 'modules/CheckDevice'
 import 'modules/ConvertSvg'
 import 'modules/LazyLoadImage'
-
+import 'modules/HeaderEr'
 import 'modules/FormAnimation'
-
+import 'modules/Search'
 
 import 'modules/UserAgent'
 import 'modules/Header'

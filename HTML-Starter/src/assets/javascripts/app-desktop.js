@@ -9,6 +9,9 @@ import 'modules/BrowserDetection'
 import 'modules/CheckDevice'
 import 'modules/ConvertSvg'
 import 'modules/LazyLoadImage'
+import 'modules/HeaderEr'
+import 'modules/Search'
+
 
 import 'modules/FormAnimation'
 
